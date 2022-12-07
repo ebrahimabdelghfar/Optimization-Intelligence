@@ -5,5 +5,11 @@ This was done by applying gradiant decent in three form :<br>
 2. Netwon raphson decent $X_{n+1} = X_n - H^{-1} \nabla F(x)$ where H is the hessian matrix 
 3. Steppest gradint decent:<br>
   this algorithim depend on changing the value of learning rate at every iteration 
- 
-  
+# Dependencies
+This milestone was applied using <br>
+1. Simpy <br>
+```pip3 install simpy```
+2. Scipy<br>
+```pip3 install scipy```
+3. numpy <br>
+```pip3 install numpy```
